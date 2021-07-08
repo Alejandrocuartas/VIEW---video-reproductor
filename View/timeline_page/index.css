@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(159, 255, 255);
+}
+
+header {
+    background-color: rgb(163, 241, 255);
+    position: fixed;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    height: 10%;
+    font-size: 430%;
+    z-index: 3;
+}
+
+#out {
+    position: absolute;
+    width: 5%;
+    left: 94%;
+    top: 30%;
+}
+
+#userName {
+    position: absolute;
+    font-family: sans-serif;
+    height: 100%;
+    font-size: 50%;
+    left: 60%;
+    top: 30%;
+}
+
+main {
+    position: absolute;
+    top: 12%;
+    width: 70%;
+    left: 15%;
+    height: 100%;
+}
+
+.videoContainer {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+video {
+    position: absolute;
+    width: 100%;
+}
+
+h1 {
+    position: absolute;
+    top: 90%;
+}
+
+#second {
+    top: 100%;
+}
+
+#third {
+    top: 200%;
+}
+
+.playerController {
+    position: absolute;
+    width: 10%;
+    top: 95%;
+}
+
+#mute1, #mute2, #mute3 {
+    left: 90%;
+}
+
+#play1, #play2, #play3 {
+    left: 80%;
+}
+
